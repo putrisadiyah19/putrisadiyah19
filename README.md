@@ -1,74 +1,338 @@
-<h1 align="center" style="color:#d81b60; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  Hi 👋, I'm <span style="color:#f48fb1;">Putri Sadiyah</span>
-</h1>
+<template>
+  <div id="app" class="container">
+    <header>
+      <h1>Hi 👋, I'm <span class="highlight">Putri Sadiyah</span></h1>
+      <h3>💻 Informatics Student | 🌱 Web Developer Enthusiast</h3>
+      <img
+        src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+        alt="Waving Hand"
+        class="waving-gif"
+      />
+    </header>
 
-<h3 align="center" style="color:#ce93d8; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  💻 Informatics Student | 🌱 Web Developer Enthusiast
-</h3>
+    <section class="about">
+      <ul>
+        <li>🔭 Currently working on <strong>a PHP Web App for user authentication</strong></li>
+        <li>🌱 Learning <strong>Vue.js & Laravel</strong></li>
+        <li>👯 Looking to collaborate on <strong>frontend projects</strong></li>
+        <li>📫 Reach me: <a href="mailto:putrisadiyah19@gmail.com">putrisadiyah19@gmail.com</a></li>
+        <li>😄 Pronouns: <strong>She/Her</strong></li>
+      </ul>
+    </section>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50" alt="Waving Hand" />
-</p>
+    <section class="skills">
+      <h2>🛠️ Skills</h2>
+      <div class="badges">
+        <span class="badge html">HTML</span>
+        <span class="badge css">CSS</span>
+        <span class="badge js">JavaScript</span>
+        <span class="badge php">PHP</span>
+        <span class="badge mysql">MySQL</span>
+        <span class="badge git">Git</span>
+        <span class="badge figma">Figma</span>
+        <span class="badge coreldraw">CorelDRAW</span>
+        <span class="badge blender">Blender</span>
+      </div>
+    </section>
 
-<div align="center" style="background:#fce4ec; border-radius: 15px; padding: 20px; max-width: 600px; margin:auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#6a1b9a;">
-<ul style="list-style:none; padding-left:0; font-size: 1.1rem; line-height: 1.6;">
-  <li>🔭 I’m currently working on <strong style="color:#d81b60;">a PHP Web App for user authentication</strong></li>
-  <li>🌱 I’m currently learning <strong style="color:#ce93d8;">Vue.js & Laravel</strong></li>
-  <li>👯 I’m looking to collaborate on <strong style="color:#ba68c8;">frontend projects</strong></li>
-  <li>📫 How to reach me: <strong style="color:#ab47bc;">putrisadiyah19@gmail.com</strong></li>
-  <li>😄 Pronouns: <strong style="color:#9c27b0;">She/Her</strong></li>
-</ul>
-</div>
+    <section class="stats">
+      <h2>📊 Profile Visits & Stats</h2>
+      <div class="stat-cards">
+        <div class="card visits">
+          <h3>👁️‍🗨️ Profile Visits</h3>
+          <p class="number">1,234</p>
+        </div>
+        <div class="card github-stats">
+          <h3>📈 GitHub Stats</h3>
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=putrisadiyah19&show_icons=true&theme=dracula&hide_border=true"
+            alt="GitHub Stats"
+          />
+        </div>
+        <div class="card top-langs">
+          <h3>📊 Top Languages</h3>
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=putrisadiyah19&layout=compact&theme=dracula&hide_border=true"
+            alt="Top Languages"
+          />
+        </div>
+      </div>
+    </section>
 
----
+    <section class="contact">
+      <h2>📫 Let's Connect!</h2>
+      <div class="social-buttons">
+        <a
+          href="https://www.linkedin.com/in/putrisadiyah19/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn linkedin"
+          >LinkedIn</a
+        >
+        <a
+          href="mailto:putrisadiyah19@gmail.com"
+          class="btn gmail"
+          >Gmail</a
+        >
+        <a
+          href="https://github.com/putrisadiyah19"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn github"
+          >GitHub</a
+        >
+      </div>
+    </section>
+  </div>
+</template>
 
-### 🛠️ Skills
+<script>
+export default {
+  name: "App",
+};
+</script>
 
-<p align="center">
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
-<!-- Coding badges with soft pink and purple gradients -->
-  <img alt="HTML" src="https://img.shields.io/badge/HTML-e91e63?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS" src="https://img.shields.io/badge/CSS-f48fb1?style=for-the-badge&logo=css3&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ce93d8?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-ba68c8?style=for-the-badge&logo=php&logoColor=white" />
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-ab47bc?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-9c27b0?style=for-the-badge&logo=git&logoColor=white" />
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+  color: #6a1b9a;
+  background: #fce4ec;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(216, 27, 96, 0.2);
+}
 
-<!-- Design badges -->
-  <img alt="Figma" src="https://img.shields.io/badge/Figma-f48fb1?style=for-the-badge&logo=figma&logoColor=white" />
-  <img alt="CorelDRAW" src="https://img.shields.io/badge/CorelDRAW-d81b60?style=for-the-badge&logo=coreldraw&logoColor=white" />
-  <img alt="Blender" src="https://img.shields.io/badge/Blender-ce93d8?style=for-the-badge&logo=blender&logoColor=white" />
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-</p>
+header h1 {
+  font-weight: 600;
+  color: #d81b60;
+  font-size: 2.5rem;
+}
 
----
+header h1 .highlight {
+  color: #f48fb1;
+}
 
-### 📊 Profile Visits & Stats
+header h3 {
+  font-weight: 300;
+  color: #ce93d8;
+  margin-top: 0.3rem;
+  font-size: 1.25rem;
+}
 
-<div align="center" style="max-width: 600px; margin: auto; background:#f8bbd0; border-radius: 15px; padding: 20px; color:#6a1b9a; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; box-shadow: 0 4px 12px rgba(216,27,96,0.25);">
-  
-  <p style="font-size:1.2rem; font-weight:bold; margin-bottom: 10px;">👁️‍🗨️ Profile Visits</p>
-  <img src="https://komarev.com/ghpvc/?username=putrisadiyah19&color=ee99c7" alt="profile views" style="border-radius: 10px;" />
-  
-  <p style="font-size:1.2rem; font-weight:bold; margin-top: 25px; margin-bottom: 10px;">📈 GitHub Stats</p>
-  <img src="https://github-readme-stats.vercel.app/api?username=putrisadiyah19&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" style="border-radius: 15px; box-shadow: 0 3px 8px rgba(216,27,96,0.3);" />
-  
-  <p style="font-size:1.2rem; font-weight:bold; margin-top: 25px; margin-bottom: 10px;">📊 Top Languages</p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=putrisadiyah19&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" style="border-radius: 15px; box-shadow: 0 3px 8px rgba(216,27,96,0.3);" />
-</div>
+.waving-gif {
+  margin-top: 15px;
+  width: 50px;
+  animation: float 3s ease-in-out infinite;
+}
 
----
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 
-### 📫 Let's Connect!
+.about ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/putrisadiyah19/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/-LinkedIn-d81b60?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:putrisadiyah19@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/-Gmail-f48fb1?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://github.com/putrisadiyah19" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/-GitHub-ce93d8?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+.about ul li {
+  margin-bottom: 10px;
+}
+
+.about strong {
+  color: #d81b60;
+}
+
+.about a {
+  color: #ab47bc;
+  text-decoration: none;
+}
+
+.skills {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.skills h2 {
+  font-weight: 600;
+  color: #9c27b0;
+  margin-bottom: 1rem;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.badge {
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  color: white;
+  cursor: default;
+  user-select: none;
+  font-size: 0.9rem;
+  box-shadow: 0 3px 6px rgba(216, 27, 96, 0.3);
+  transition: transform 0.2s ease;
+}
+.badge:hover {
+  transform: scale(1.1);
+}
+
+/* Skill badge colors */
+.html {
+  background: #e91e63;
+}
+.css {
+  background: #f48fb1;
+}
+.js {
+  background: #ce93d8;
+  color: #333;
+}
+.php {
+  background: #ba68c8;
+}
+.mysql {
+  background: #ab47bc;
+}
+.git {
+  background: #9c27b0;
+}
+.figma {
+  background: #f48fb1;
+}
+.coreldraw {
+  background: #d81b60;
+}
+.blender {
+  background: #ce93d8;
+}
+
+.stats {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.stats h2 {
+  font-weight: 600;
+  color: #d81b60;
+  margin-bottom: 1rem;
+}
+
+.stat-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(216, 27, 96, 0.15);
+  padding: 20px;
+  width: 260px;
+  text-align: center;
+  color: #6a1b9a;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 18px rgba(216, 27, 96, 0.3);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.card .number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d81b60;
+  margin: 0;
+}
+
+.card img {
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.contact {
+  margin: 3rem 0 2rem;
+  text-align: center;
+}
+
+.contact h2 {
+  font-weight: 600;
+  color: #9c27b0;
+  margin-bottom: 1.5rem;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 4px 12px rgba(216, 27, 96, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  user-select: none;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* Button colors */
+.linkedin {
+  background: #d81b60;
+}
+
+.linkedin:hover {
+  background: #f48fb1;
+  color: #6a1b9a;
+}
+
+.gmail {
+  background: #f48fb1;
+  color: #6a1b9a;
+}
+
+.gmail:hover {
+  background: #d81b60;
+  color: white;
+}
+
+.github {
+  background: #9c27b0;
+}
+
+.github:hover {
+  background: #ba68c8;
+}
+</style>
