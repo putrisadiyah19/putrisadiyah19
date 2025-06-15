@@ -4,7 +4,7 @@
 </h1>
 
 <p style="font-size:1.1rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#6a1b9a;">
-  💻 Informatics Student | 🌸 Frontend & UI/UX Enthusiast
+  💻 Informatics Student | 🌸 UI/UX Enthusiast
 </p>
 
 <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="120" alt="cute waving" style="margin-top:-10px; margin-left:0;" />
