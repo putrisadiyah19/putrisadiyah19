@@ -15,7 +15,7 @@
   <li>🔭 I’m currently working on <strong style="color:#d81b60;">a PHP Web App for user authentication</strong></li>
   <li>🌱 I’m currently learning <strong style="color:#ce93d8;">Vue.js & Laravel</strong></li>
   <li>👯 I’m looking to collaborate on <strong style="color:#ba68c8;">frontend projects</strong></li>
-  <li>📫 How to reach me: <strong style="color:#ab47bc;">putrisadiyah19@gmail.com</strong></li>
+  <li>📫 How to reach me: <strong style="color:#ab47bc;">sadiyahputri32@gmail.com</strong></li>
   <li>😄 Pronouns: <strong style="color:#9c27b0;">She/Her</strong></li>
 </ul>
 </div>
