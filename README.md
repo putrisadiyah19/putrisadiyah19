@@ -20,7 +20,6 @@
   <li>📚 Currently learning <strong style="color:#ba68c8;">Vue.js</strong> & <strong style="color:#ce93d8;">Laravel</strong></li>
   <li>🤝 Looking to collaborate on <strong style="color:#ec407a;">Frontend/UI Projects</strong></li>
   <li>📬 Reach me at: <strong style="color:#9c27b0;">sadiyahputri32@gmail.com</strong></li>
-  <li>💁‍♀️ Pronouns: <strong>She/Her</strong></li>
 </ul>
 
 </div>
