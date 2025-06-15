@@ -1,4 +1,4 @@
-# ✨ Hello World! I'm **Putri Sadiyah** 💕  
+# ✨ Hello World! I'm **Putri Sadiyah**
 💻 *Informatics Student | 🌱 Frontend Developer Enthusiast*
 
 <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="90" alt="waving hand" />
