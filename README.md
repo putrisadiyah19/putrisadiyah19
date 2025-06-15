@@ -1,6 +1,6 @@
 
 <h1 style="color:#d81b60; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  ✨ Hi there! I'm <span style="color:#f06292;">Putri Sadiyah</span> 💕
+  ✨ Hi there! I'm <span style="color:#f06292;">Putri Sadiyah</span>
 </h1>
 
 <p style="font-size:1.1rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#6a1b9a;">
